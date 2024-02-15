@@ -31,6 +31,9 @@
 </head>
 
 <body>
+  <counter-app></counter-app>
+  <counter-app counter="0" min="0" max="25"></counter-app>
+
   <h1>polaris-chip</h1>
   <!-- this is going to do whatever the tag's defaults are -->
   <polaris-chip></polaris-chip>
@@ -40,28 +43,28 @@
   <h1>my-card</h1>
   <!-- Default card -->
   <my-card></my-card>
+  <my-card>fancy</my-card>
 
   <!-- Different Background Color -->
-  <my-card title="Cool stuff" image="https://hax.psu.edu/7d3549e0.png" background_color="#000" description="Here's a image included on hax.psu.edu website, below the details button will take
-  you to the site.">
+  <my-card title="Cool stuff" image="https://hax.psu.edu/7d3549e0.png" background_color="#000">
   </my-card>
 
   <!-- Different Title -->
-  <my-card title="Different Title" image="https://hax.psu.edu/7d3549e0.png" background_color="#fff" description="Here's a image included on hax.psu.edu website, below the details button will take
-  you to the site.">
+  <my-card title="Different Title" image="https://hax.psu.edu/7d3549e0.png" background_color="#fff">
   </my-card>
 
   <!-- Different Image -->
-  <my-card title="Cool stuff" image="https://styles.redditmedia.com/t5_2qwn7/styles/communityIcon_x1az7iip9ka11.png" background_color="#fff" description="Different Description">
+  <my-card title="Cool stuff" image="https://www.worldcampus.psu.edu/sites/default/files/2018-12/1920x840_about-us_L1_1.jpg" background_color="#fff">
   </my-card>
 
   <!-- Different Everything -->
-  <my-card title="Different Title" image="https://styles.redditmedia.com/t5_2qwn7/styles/communityIcon_x1az7iip9ka11.png" background_color="#838" description="Different Description">
-  </my-card>
+  <my-card title="Penn State" image="https://www.worldcampus.psu.edu/sites/default/files/2018-12/1920x840_about-us_L1_1.jpg" background_color="#838">
+  Different Description</my-card>
 
   <!-- this is what is bringing in the definition for this tag -->
   <script type="module" src="./src/polaris-chip.js"></script>
   <script type="module" src="./src/my-card.js"></script>
+  <script type="module" src="./src/counter-app.js"></script>
 </body>
 
 </html>
