@@ -1,5 +1,143 @@
 {
-    "id": 1,
-    "title": "Hello World",
-    "completed": false
+    "defualt": {
+        "TAG A": {
+            "correct": false,
+            "feedback": "This is the response from TAG A."
+        },
+        "TAG B": {
+            "correct": false,
+            "feedback": "This is the response from TAG B."
+        },
+
+        "TAG C": {
+            "correct": true,
+            "feedback": "This is the response from TAG C. When in doubt, pick C."
+        },
+
+        "TAG D": {
+            "correct": false,
+            "feedback": "This is the response from TAG D."
+        }
+
+    },
+
+    "hax-logo": {
+        "Good-form": {
+            "correct": true,
+            "feedback": "The shape of the vase clearly demonstrates craftmanship."
+
+        },
+
+        "Poor Taste": {
+            "correct": false,
+            "feedback": "Taste is in the eye of the designer as well as the viewer."
+
+        },
+        "Contrasting themes": {
+            "correct": false,
+            "feedback": " There is uniformity in the shape, but there is no depth to this media to imply that it is contrasting with other figures."
+
+        },
+        "AI": {
+            "correct": true,
+            "feedback": "While a modification of prior work, this is still AI genreated."
+
+        },
+
+        "Shading": {
+            "correct": false,
+            "feedback": "While there is a light source and a shadow cast, shading is a term used for pencil based sketching."
+
+        },
+
+        "Original Work": {
+            "correct": true,
+            "feedback": "This character is not based on any person, place, or existing trope"
+        },
+
+        "Accessible": {
+            "correct": false,
+            "feedback": "The color scheme while high contrast in some areas, loses form in others and has written text unrelated to the character."
+        }
+
+    },
+
+    "pirate": {
+        "Calico Jack": {
+            "correct": true,
+            "feedback": "<Strong><em>Calico Jack</em></strong> was a <Strong><em>pirate</em></strong> who operated in the Bahamas and Cuba."
+
+        },
+
+        "Blackbeard": {
+            "correct": true,
+            "feedback": "<Strong><em>Blackbeard</em></strong> was a <Strong><em>pirate</em></strong> who operated in the Atlantic and West Indies."
+
+        },
+        "Bartholomew Roberts": {
+            "correct": true,
+            "feedback": "<Strong><em>Bartholomew Roberts</em></strong> was a <Strong><em>pirate</em></strong> who operated in coasts of West Africa, Brazil, the Caribbean, and Newfoundland."
+
+        },
+        "Captain Kidd": {
+            "correct": true,
+            "feedback": "<Strong><em>Captain Kidd</em></strong> was originally a Scottish privateer for England until <Strong><em>turning towards piracy</em></strong> after unsuccessful pirate apprehensions."
+
+        },
+
+        "William 'Bull' Halsey": {
+            "correct": false,
+            "feedback": "<Strong><em>William 'Bull' Halsey</em></strong> was one of the United States Navy's Fleet Admirals. <Strong><em>He was never a pirate.</em></strong>"
+
+        },
+
+        "Horace Hood": {
+            "correct": false,
+            "feedback": "<Strong><em>Horace Hood</em></strong> was a Royal Navy Admiral in the First World War. <Strong><em>He was never a pirate.</em></strong>"
+
+        },
+
+        "Anne Bonny": {
+            "correct": true,
+            "feedback": "<Strong><em>Anne Bonny</em></strong> was a <Strong><em>pirate</em></strong> who operated in the Carribean."
+
+        },
+
+        "Francis Drake": {
+            "correct": true,
+            "feedback": "<Strong><em>Francis Drake</em></strong> is an English explorer and privateer who fought the Spanish Armada for England's defence. He was known as <Strong><em>'The Queen's Favorite Pirate.'</em></strong>"
+
+        },
+
+        "Günther Lütjens": {
+            "correct": false,
+            "feedback": "<Strong><em>Günther Lütjens</em></strong> is a German Admiral who served in the First and Second World Wars, <Strong><em>he was never a pirate.</em></strong>"
+
+        },
+
+        "Zheng Yi Sao": {
+            "correct": true,
+            "feedback": "<Strong><em>Zheng Yi Sao</em></strong> was a <Strong><em>pirate leader</em></strong> who operated in the South China Sea, Canton or today known as Guangzhou, and the Carribean."
+
+        },
+
+        "Napoleon Bonaparte": {
+            "correct": false,
+            "feedback": "<Strong><em>Napoleon Bonaparte</em></strong> was an Emperor of the French Republic. <Strong><em>He was never a pirate.</em></strong>"
+
+        },
+
+        "Sun Yat-sen": {
+            "correct": false,
+            "feedback": "<Strong><em>Sun Yat-sen</em></strong> was the first provisional president of the Republic of China(Taiwan) and 'Foreunner of the Revolution' in the People's Republic of China. <Strong><em>He was never a pirate.</em></strong>"
+
+        },
+
+        "Michiel de Ruyter": {
+            "correct": false,
+            "feedback": "<Strong><em>Michiel de Ruyter</em></strong> was an admiral for the Dutch Navy during the Anglo-Dutch Wars. <Strong><em>He was never a pirate.</em></strong>"
+
+        }
+
+    }
 }
